@@ -12,6 +12,11 @@ export default function Tool() {
             <img src="images/css-3-svgrepo-com.svg" alt="CSS3" title="CSS3"/>
             <img src="images/java-svgrepo-com.svg" alt="Java" title="Java"/>
             <img src="images/mysql-logo-svgrepo-com.svg" alt="MySQL" title="MySQL"/>
+            <img src="images/c-plus-plus-svgrepo-com.svg" alt="C++" title="C++"/>
+            <img src="images/jetbrains-svgrepo-com.svg" alt="Jet Brains" title="Jet Brains"/>
+            <img src="images/flutter-svgrepo-com.svg" alt="Flutter" title="Flutter"/>
+            <img src="images/linux-mint-svgrepo-com.svg" alt="Linux Mint" title="Linux Mint"/>
+            <img src="images/xampp-svgrepo-com.svg" alt="XAMPP" title="XAMPP"/>
         </section>
     )
 }
