@@ -1,0 +1,17 @@
+
+.paragraph {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    padding: 0 0 20xp 0;
+    color: #8396BC;
+    font-family: GreyCliff-Regular;
+    font-size: 1.05rem;
+    line-height: 1.5rem;
+    padding: 0 20px 20px 20px;
+    text-align: justify;
+}
+
+.paragraph b {
+    color: #CBD7ED;
+}

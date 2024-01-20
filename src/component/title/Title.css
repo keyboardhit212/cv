@@ -1,0 +1,10 @@
+.title {
+    height: auto;
+    width: 100%;
+    font-family: GreyCliff-Medium;
+    font-size: 1.2rem;
+    color: #CBD7ED;
+    padding: 0 20px;
+    margin-top: 20px;
+    letter-spacing: -1px;
+}

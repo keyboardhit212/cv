@@ -1,0 +1,18 @@
+
+.contact {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+}
+
+.contact a {
+    margin-right: 10px;
+}
+
+.contact a img {
+    filter: brightness(0) invert(1);
+}
+
+.contact a img:hover {
+    filter: invert(94%) sepia(7%) saturate(44%) hue-rotate(202deg) brightness(89%) contrast(87%);
+}

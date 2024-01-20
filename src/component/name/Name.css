@@ -1,0 +1,11 @@
+.name {
+    display: block;
+    height: auto;
+    width: 100%;
+    font-size: 3.2rem;
+    font-family: GreyCliff-Bold;
+    font-weight: bold;
+    padding: 0 20px;
+    color: #CBD7ED;
+    letter-spacing: -3px;
+}
