@@ -12,6 +12,7 @@ import Skill from './component/experience/Skill';
 import SectionHeading from './component/section_heading/SectionHeading';
 import ProjectSet from './component/experience/ProjectSet';
 import Project from './component/experience/Project';
+import Tool from './component/tool/Tool';
 
 function App() {
   return (
@@ -50,6 +51,9 @@ function App() {
           title="BSIT"
           work="University of St. La Salle"
           description="Earned my four year Bachelors Degree in Information Technology in this university. Throughout, I have learned relevant skills and knowledge that would help me as a professional.">
+          <ProjectSet>
+            <Project name="USLS" link="https://usls.edu.ph/"/>
+          </ProjectSet>
           <Skillset>
             <Skill name="OOAD"/>
             <Skill name="Java"/>
@@ -84,6 +88,9 @@ function App() {
           title="Image Editor and Content Writer"
           work="G.O Green Enterprises"
           description="Responsible for processing the images to be put on PlumbersStock.com and likewise was responsible for creating product content.">
+          <ProjectSet>
+            <Project name="PlumbersStock" link="https://www.plumbersstock.com/"/>
+          </ProjectSet>
           <Skillset>
             <Skill name="Adobe Photoshop"/>
             <Skill name="MS Excel"/>
@@ -93,11 +100,14 @@ function App() {
         <Experience
           from="MAR 2017"
           to="MAR 2019"
-          title="Missionary"
-          work="The Church of Jesus Christ of Latter Day Saints"
-          description="In charge of training new missionaries in the field and was likewise assigned to
+          title="Missionary "
+          work="Mesa, Arizona"
+          description="I was a missionary for the Church of Jesus Christ of Latter Day Saints and was in charge of training new missionaries in the field and was likewise assigned to
           several leadership position whose main task was to be in charge of the overall
           planning and leading weekly meetings.">
+            <ProjectSet>
+              <Project name="Mission Office" link="https://www.google.com/maps/place/2525+N+32nd+St,+Mesa,+AZ+85213,+USA/@33.4615817,-111.7616058,17z/data=!3m1!4b1!4m6!3m5!1s0x872ba6802ac72e91:0xb85956e711e2bcea!8m2!3d33.4615817!4d-111.7616058!16s%2Fg%2F11c4v14npr?entry=ttu"/>
+            </ProjectSet>
         </Experience>
         <Experience
           from="OCT 2019"
@@ -131,6 +141,10 @@ function App() {
             <Skill name="SQLite"/>
           </Skillset>
         </Experience>
+        {/*Tools Section*/}
+        <SectionHeading title="Tools" link=""/>
+        <Description content="These are some of the tools and technologies that I have worked with."/>
+        <Tool/>
       </section>
     </main>
   );
