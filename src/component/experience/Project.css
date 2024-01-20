@@ -1,0 +1,29 @@
+
+.project {
+    position: relative;
+    text-decoration: none;
+    font-family: GreyCliff-Medium;
+    color: #CBD7ED;
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+.project::before {
+    content: " ";
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background-image: url("../../../public/images/chain-svgrepo-com.svg");
+    background-size: 12px 12px;
+    margin-right: 5px;
+    filter: invert(1);
+    
+}
+
+.project:hover {
+    color: #4EC4B8;
+}
+
+.project:hover::before {
+    filter: brightness(0) saturate(100%) invert(74%) sepia(12%) saturate(1594%) hue-rotate(125deg) brightness(90%) contrast(93%);
+}

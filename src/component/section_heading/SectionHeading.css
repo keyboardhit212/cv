@@ -1,0 +1,35 @@
+
+.section-heading {
+    display: block;
+    height: auto;
+    width: 100%;
+    padding: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.section-heading a {
+    position: relative;
+    text-decoration: none;
+    color: #CBD7ED;
+}
+
+.section-heading a::after {
+    position: absolute;
+    display: inline-block;
+    background-image: url("../../../public/images/arrow-up-right-svgrepo-com.svg");
+    background-size: 25px 25px;
+    filter: invert(1);
+    width: 25px;
+    height: 25px;
+    content: " ";
+    top: -5px;
+    right: -33px;
+}
+
+.section-heading a:hover::after {
+    top: -10px;
+    right: -40px;
+    transition-duration: 0.5s;
+}

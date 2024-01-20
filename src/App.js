@@ -9,6 +9,9 @@ import Paragraph from './component/paragraph/Paragraph';
 import Experience from './component/experience/Experience';
 import Skillset from './component/experience/Skillset';
 import Skill from './component/experience/Skill';
+import SectionHeading from './component/section_heading/SectionHeading';
+import ProjectSet from './component/experience/ProjectSet';
+import Project from './component/experience/Project';
 
 function App() {
   return (
@@ -17,7 +20,7 @@ function App() {
         <section className='fixed-container'>
           <Name name="R Judd Celis"/>
           <Title title="Software Developer at Freelance"/>
-          <Description width={450} content="I transform webpage designs onto a working webpage using HTML and CSS."/>
+          <Description width={450} content="I transform webpage designs into a working webpage using HTML and CSS."/>
           <Navigation/>
           <Contact/>
         </section>
@@ -39,6 +42,26 @@ function App() {
         <Paragraph>
           Feel free to <b>contact me</b>.
         </Paragraph>
+        {/* Education Section */}
+        <SectionHeading title="Education" link="https://usls.edu.ph/"/>
+        <Experience
+          from="2012"
+          to="2016"
+          title="BSIT"
+          work="University of St. La Salle"
+          description="Earned my four year Bachelors Degree in Information Technology in this university. Throughout, I have learned relevant skills and knowledge that would help me as a professional.">
+          <Skillset>
+            <Skill name="OOAD"/>
+            <Skill name="Java"/>
+            <Skill name="PHP"/>
+            <Skill name="Programming Fundamentals"/>
+            <Skill name="Database Modeling"/>
+            <Skill name="MySQL"/>
+            <Skill name="SAP"/>
+          </Skillset>
+        </Experience>
+        {/*Experience Section*/}
+        <SectionHeading title="Experience" link=""/>
         <Experience
           from="AUG 2015"
           to="FEB 2016"
@@ -72,13 +95,9 @@ function App() {
           to="MAR 2019"
           title="Missionary"
           work="The Church of Jesus Christ of Latter Day Saints"
-          description="Developed and maintained web based ticketing system for the IT Center of the university to resolve and handle internal issues more efficiently.
-          The system has the capability to sort and prioritize issues based on its severity.">
-          <Skillset>
-            <Skill name="Adobe Photoshop"/>
-            <Skill name="MS Excel"/>
-            <Skill name="MS Word"/>
-          </Skillset>
+          description="In charge of training new missionaries in the field and was likewise assigned to
+          several leadership position whose main task was to be in charge of the overall
+          planning and leading weekly meetings.">
         </Experience>
         <Experience
           from="OCT 2019"
@@ -103,6 +122,9 @@ function App() {
           title="Mobile Applications Developer"
           work="Freelance"
           description="Developed and maintained a mobile app for elementary students to help their subject mastery in preparation for yearly examination.">
+          <ProjectSet>
+            <Project name="Sidlak" link="https://github.com/keyboardhit212/Sidlak"/>
+          </ProjectSet>
           <Skillset>
             <Skill name="Flutter"/>
             <Skill name="Android Studio"/>
