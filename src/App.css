@@ -24,12 +24,14 @@ section {
 main > section:first-child {
     position: relative;
     /* background: red; */
-    padding: 5rem 0 5rem 13rem;
+    padding: 5rem 0 5rem 14rem;
     overflow: hidden;
 }
 
 main > section:nth-child(2) {
     padding: 5rem 0;
+    font-family: GreyCliff-Regular;
+    z-index: 1;
     /* background: green; */
 }
 
@@ -43,4 +45,5 @@ main > section:first-child .contact {
     width: 100%;
     height: 100vh;
     position: fixed;
+    z-index: 0;
 }

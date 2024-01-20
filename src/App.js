@@ -6,6 +6,9 @@ import Description from './component/description/Description';
 import Navigation from './component/navigation/Navigation';
 import Contact from './component/contact/Contact';
 import Paragraph from './component/paragraph/Paragraph';
+import Experience from './component/experience/Experience';
+import Skillset from './component/experience/Skillset';
+import Skill from './component/experience/Skill';
 
 function App() {
   return (
@@ -36,6 +39,76 @@ function App() {
         <Paragraph>
           Feel free to <b>contact me</b>.
         </Paragraph>
+        <Experience
+          from="AUG 2015"
+          to="FEB 2016"
+          title="Web Developer"
+          work="University of St. La Salle IT Center"
+          description="Developed and maintained web based ticketing system for the IT Center of the university to resolve and handle internal issues more efficiently.
+          The system has the capability to sort and prioritize issues based on its severity.">
+          <Skillset>
+            <Skill name="HTML"/>
+            <Skill name="CSS"/>
+            <Skill name="Materialize CSS"/>
+            <Skill name="VS Code"/>
+            <Skill name="MySQL"/>
+            <Skill name="Git"/>
+          </Skillset>
+        </Experience>
+        <Experience
+          from="APR 2016"
+          to="SEP 2016"
+          title="Image Editor and Content Writer"
+          work="G.O Green Enterprises"
+          description="Responsible for processing the images to be put on PlumbersStock.com and likewise was responsible for creating product content.">
+          <Skillset>
+            <Skill name="Adobe Photoshop"/>
+            <Skill name="MS Excel"/>
+            <Skill name="MS Word"/>
+          </Skillset>
+        </Experience>
+        <Experience
+          from="MAR 2017"
+          to="MAR 2019"
+          title="Missionary"
+          work="The Church of Jesus Christ of Latter Day Saints"
+          description="Developed and maintained web based ticketing system for the IT Center of the university to resolve and handle internal issues more efficiently.
+          The system has the capability to sort and prioritize issues based on its severity.">
+          <Skillset>
+            <Skill name="Adobe Photoshop"/>
+            <Skill name="MS Excel"/>
+            <Skill name="MS Word"/>
+          </Skillset>
+        </Experience>
+        <Experience
+          from="OCT 2019"
+          to="APR 2020"
+          title="Frontend Developer"
+          work="Binary Anvil"
+          description="Responsible for translating and implementing the webpage designs from Figma onto a working HTML and CSS onto the Magento Platform.">
+          <Skillset>
+            <Skill name="HTML"/>
+            <Skill name="Magento 2.0"/>
+            <Skill name="CSS"/>
+            <Skill name="LESS"/>
+            <Skill name="Vagrant"/>
+            <Skill name="Figma"/>
+            <Skill name="PHP Storm"/>
+            <Skill name="Git"/>
+          </Skillset>
+        </Experience>
+        <Experience
+          from="JAN 2023"
+          to="MAY 2023"
+          title="Mobile Applications Developer"
+          work="Freelance"
+          description="Developed and maintained a mobile app for elementary students to help their subject mastery in preparation for yearly examination.">
+          <Skillset>
+            <Skill name="Flutter"/>
+            <Skill name="Android Studio"/>
+            <Skill name="SQLite"/>
+          </Skillset>
+        </Experience>
       </section>
     </main>
   );

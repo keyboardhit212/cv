@@ -1,0 +1,12 @@
+.skill {
+    display: inline-block;
+    padding: 10px 10px;
+    color: #4EC4B8;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    background: rgba(78, 196, 184, 0.21);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.1px);
+    -webkit-backdrop-filter: blur(3.1px);
+    margin: 5px 5px 0 0;
+}

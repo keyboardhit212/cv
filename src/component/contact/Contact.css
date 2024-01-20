@@ -10,9 +10,10 @@
 }
 
 .contact a img {
-    filter: brightness(0) invert(1);
+    filter: invert(94%) sepia(7%) saturate(44%) hue-rotate(202deg) brightness(89%) contrast(87%);
+    
 }
 
 .contact a img:hover {
-    filter: invert(94%) sepia(7%) saturate(44%) hue-rotate(202deg) brightness(89%) contrast(87%);
+    filter: brightness(0) invert(1);
 }
