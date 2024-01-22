@@ -37,13 +37,13 @@ section {
 main > section:first-child {
     position: fixed;
     /* background: red; */
-    padding: 5rem 0 5rem 14rem;
+    padding: 5rem 0 5rem 12rem;
     overflow: hidden;
 }
 
 main > section:nth-child(2) {
     position: absolute;
-    right: 0px;
+    right: 5rem;
     padding: 5rem 0;
     font-family: GreyCliff-Regular;
     z-index: 1;

@@ -1,9 +1,9 @@
 import './Description.css';
 
-export default function Description({content, width}) {
+export default function Description({content, width, children}) {
     return (
         <section className='description' style={{width: width}}>
-            <p>{content}</p>
+            <p>{content}{children}</p>
         </section>
     );
 }

@@ -8,3 +8,16 @@
     font-size: 1.05rem;
     line-height: 1.6rem;
 }
+
+.description a {
+    padding: 7px 20px;
+    border: 2px solid #8396BC;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #8396BC;
+    margin-left: 10px;  
+}
+
+.description a:hover {
+    color: #4EC4B8;
+}

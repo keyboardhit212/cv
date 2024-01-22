@@ -15,19 +15,7 @@
     text-decoration: none;
     color: #CBD7ED;
 }
-
-.section-heading a::after {
-    position: absolute;
-    display: inline-block;
-    background-image: url("../../../public/images/arrow-up-right-svgrepo-com.svg");
-    background-size: 25px 25px;
-    filter: invert(1);
-    width: 25px;
-    height: 25px;
-    content: " ";
-    top: -5px;
-    right: -33px;
-}
+    
 
 .section-heading a:hover::after {
     top: -10px;

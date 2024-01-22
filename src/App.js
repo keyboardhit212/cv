@@ -146,6 +146,10 @@ function App() {
           <SectionHeading title="Tools" link=""/>
           <Description content="These are some of the tools and technologies that I have worked with."/>
           <Tool/>
+          <SectionHeading title="Resume" link=""/>
+          <Description content="You can download my resume ">
+            <a href="resume/resume.pdf">Here</a>
+          </Description>
         </section>
       </main>
     </>
