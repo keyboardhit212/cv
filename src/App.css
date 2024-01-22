@@ -7,13 +7,14 @@ body {
 }
 
 #mousepointer {
-    width: 100px;
-    height: 100px;
+    width: 70px;
+    height: 70px;
     position: fixed;
+    border-radius: 35px;
     box-shadow: -40px 1px 187px 10px rgba(255,255,255,0.44);
     -webkit-box-shadow: -40px 1px 187px 10px rgba(255,255,255,0.44);
     -moz-box-shadow: -40px 1px 187px 10px rgba(255,255,255,0.44);
-    background: transparent;
+    background: rgba(255,255,255,0.042);
 }
 
 main {
