@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react';
+import React from 'react';
 import './App.css';
 import Name from './component/name/Name';
 import Title from './component/title/Title';

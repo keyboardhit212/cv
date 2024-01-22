@@ -1,6 +1,6 @@
 import './Navigation.css';
 
-export default function Navigation() {
+export default function Navigation({page}) {
     return (
         <section className="navigation">
             <ul>
