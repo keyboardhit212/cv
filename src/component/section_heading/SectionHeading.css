@@ -10,15 +10,8 @@
     margin-top: 70px;
 }
 
-.section-heading a {
+.section-heading span {
     position: relative;
     text-decoration: none;
     color: #CBD7ED;
-}
-    
-
-.section-heading a:hover::after {
-    top: -10px;
-    right: -40px;
-    transition-duration: 0.5s;
 }

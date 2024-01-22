@@ -27,7 +27,7 @@ function App() {
           <Navigation/>
           <Contact/>
         </section>
-        <section>
+        <section id="About">
           <Paragraph>
             For several years ago I decided to take up <b>Information Technology</b> as my college degree just out of curiosity how softwares were made.
             The days and years were certainly long and the journey was not easy, but I am glad that it was through and the learnings I have acquired were 
@@ -45,7 +45,7 @@ function App() {
             Feel free to <b>contact me</b>.
           </Paragraph>
           {/* Education Section */}
-          <SectionHeading title="Education" link="https://usls.edu.ph/"/>
+          <SectionHeading title="Education" id="Education"/>
           <Experience
             from="2012"
             to="2016"
@@ -66,7 +66,7 @@ function App() {
             </Skillset>
           </Experience>
           {/*Experience Section*/}
-          <SectionHeading title="Experience" link=""/>
+          <SectionHeading title="Experience" id="Experience"/>
           <Experience
             from="AUG 2015"
             to="FEB 2016"
@@ -143,10 +143,10 @@ function App() {
             </Skillset>
           </Experience>
           {/*Tools Section*/}
-          <SectionHeading title="Tools" link=""/>
+          <SectionHeading title="Tools" id="Tools"/>
           <Description content="These are some of the tools and technologies that I have worked with."/>
           <Tool/>
-          <SectionHeading title="Resume" link=""/>
+          <SectionHeading title="Resume" id="Resume"/>
           <Description content="You can download my resume ">
             <a href="resume/resume.pdf">Here</a>
           </Description>
