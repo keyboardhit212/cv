@@ -3,6 +3,7 @@
     display: block;
     height: auto;
     width: 100%;
+    max-width: 75%;
     padding: 20px;
     text-transform: uppercase;
     font-weight: bold;
