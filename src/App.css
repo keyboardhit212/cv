@@ -62,3 +62,43 @@ main > section:first-child .contact {
     position: fixed;
     z-index: 0;
 }
+
+@media only screen and (max-width: 1500px) {
+    main > section:first-child {
+        position: fixed;
+        /* background: red; */
+        padding: 5rem 0 5rem 2rem;
+        overflow: hidden;
+    }
+
+    main > section:first-child .contact {
+        position: absolute;
+        bottom: 130px;
+        left: 2rem;
+    }
+
+    main > section:nth-child(2) {
+        position: absolute;
+        right: 2rem;
+        padding: 5rem 0;
+        font-family: GreyCliff-Regular;
+        z-index: 1;
+        /* background: green; */
+    }
+
+    main section .experience {
+        width: 100%;
+    }
+
+    section .paragraph {
+        max-width: 100%;
+    }
+
+    section .tool {
+        max-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+
+}
