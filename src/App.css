@@ -63,6 +63,7 @@ main > section:first-child .contact {
     z-index: 0;
 }
 
+/*BREAKPOINT FOR 1500px and Below*/
 @media only screen and (max-width: 1500px) {
     main > section:first-child {
         position: fixed;
@@ -99,6 +100,68 @@ main > section:first-child .contact {
     }
 }
 
-@media only screen and (max-width: 900px) {
+/*BREAKPOINT FOR 900px and BELOW*/
+@media only screen and (max-width: 950px) {
+    #root  main {
+        display: block;
+    }
+
+    #mousepointer {
+        display: none;
+    }
+    
+    /*FIRST COLUMN*/
+    main > section:first-child {
+        position: static;
+        /* background: red; */  
+        padding: 0;
+        height: 250px;
+        width: 100%;
+        padding-top: 15px;
+    }
+
+    main > section:first-child .name,
+    main > section:first-child .title,
+    main > section:first-child .description {
+        text-align: center;
+        width: 100% !important;
+    }
+
+    main > section:first-child .navigation {
+        display: none;
+    }
+
+    main > section:first-child .contact {
+        position: static;
+        margin: 0 auto;
+        width: 150px;
+        display: block;
+    }
+
+
+    /*SECOND COLUMN*/
+
+    main > section:nth-child(2) {
+        display: block;
+        position: relative;
+        right: 0;
+        width: 100%;
+        padding-top: 15px;
+        /* background: green; */
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        max-width: 950px;
+        min-width: 300px;
+        width: 100%;
+    }
+
+    .description > p > a {
+        display: block;
+        margin: 0;
+        text-align: center;
+    }
 
 }
